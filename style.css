@@ -15,8 +15,10 @@ img {
   justify-content: space-between;
   align-items: center;
   left: 50%;
+  width: 140px;
   transform: translate(-50%, 0);
   text-decoration: none;
+  font-size: 15px;
 }
 .twitter svg {
   width: 32px;
