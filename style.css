@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  background: #000;
+}
+
+img {
+  display: none;
+}
+
+.twitter {
+  position: fixed;
+  display: flex;
+  right: 64px;
+  bottom: 14px;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-decoration: none;
+}
+.twitter svg {
+  width: 32px;
+  height: 32px;
+  fill: #cf1515;
+}
+.twitter span {
+  color: #cf1515;
+}
